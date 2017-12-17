@@ -25,11 +25,6 @@ HADOOP jar $HADOOP_JAR \
     -file ./map_file.py
 
 
-
-
-
-
-
 # cat 作为 mapper
 HADOOP jar $HADOOP_JAR \
     -input $OUTPUT2, $OUTPUT1 \
